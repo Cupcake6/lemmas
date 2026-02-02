@@ -13,17 +13,20 @@
 
 #import "lemmas/divisor_symmetry.typ"
 #import "lemmas/divisors_of_squares.typ"
+#import "lemmas/polynomial_difference.typ"
 
 #let lemmas = (
   divisor_symmetry,
   divisors_of_squares,
+  polynomial_difference,
 )
 
-#for lemma in lemmas {
+#for (i, lemma) in lemmas.enumerate() {
   [= #lemma.name]
   [_#(lemma.statement)_]
   [== Proof]
   lemma.proof
   $space square$
-  pagebreak()
+
+  if i < lemmas.len() - 1 { pagebreak() }
 }

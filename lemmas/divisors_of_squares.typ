@@ -1,6 +1,6 @@
 #import "../definitions.typ"
 
-#let name = [Divisors of squares]
+#let name = [Divisors of squares <lemma-divisor-of-squares>]
 
 #let statement = [A number is a perfect square if and only if it has an odd number of divisors]
 
