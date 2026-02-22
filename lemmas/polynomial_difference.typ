@@ -1,6 +1,6 @@
 #import "../definitions.typ"
 
-#let name = [Polynomial difference]
+#let name = [Polynomial difference <lemma-polynomial-difference>]
 
 #let statement = [If $P(x)$ is a polynomial with whole coefficients, then $forall a, b in ZZ, space (a-b) divides (P(a)-P(b))$]
 

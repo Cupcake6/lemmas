@@ -14,11 +14,13 @@
 #import "lemmas/divisor_symmetry.typ"
 #import "lemmas/divisors_of_squares.typ"
 #import "lemmas/polynomial_difference.typ"
+#import "lemmas/common_divisor_invariant.typ"
 
 #let lemmas = (
   divisor_symmetry,
   divisors_of_squares,
   polynomial_difference,
+  common_divisor_invariant,
 )
 
 #for (i, lemma) in lemmas.enumerate() {

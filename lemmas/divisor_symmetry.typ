@@ -1,4 +1,4 @@
-#let name = [Divisor symmetry <lemma-divisor-summary>]
+#let name = [Divisor symmetry <lemma-divisor-symmetry>]
 
 #let statement = [$forall n in NN$ the number of divisors of $n$ that are less than $x in RR, space x>0$ is equal to the number of divisors of $n$ that are more than $n/x$]
 
@@ -13,7 +13,7 @@
 
   Define $f: A -> B$ by $f(a)=n/a$.
 
-  This mapping works because $n/a divides n$ and $a < x ==> n/a > n/x$, so $n/a in B$.
+  This mapping works because $n/a divides n$ and $a < x ==> n/a > n/x$, thus $n/a in B$.
 
   Define $f^(-1): B -> A$ by $f^(-1)(b)=n/b$.
 

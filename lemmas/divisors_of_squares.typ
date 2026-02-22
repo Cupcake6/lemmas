@@ -1,6 +1,6 @@
 #import "../definitions.typ"
 
-#let name = [Divisors of squares <lemma-divisor-of-squares>]
+#let name = [Divisors of squares <lemma-divisors-of-squares>]
 
 #let statement = [A number is a perfect square if and only if it has an odd number of divisors]
 
@@ -13,7 +13,7 @@
 
   $D(3^10)=5$
 
-  A consequence of #definitions.label_link(<lemma-divisor-summary>)[divisor symmetry lemma] is that $forall n in NN$ the number of divisors of $n$ that are less than $sqrt(n)$ is equal to the number of divisors of $n$ that are more than $sqrt(n)$. We can use this fact to express the total number of divisors of $n$ in terms of $D(n)$. There are two cases:
+  A consequence of #definitions.label_link(<lemma-divisor-symmetry>)[divisor symmetry lemma] is that $forall n in NN$ the number of divisors of $n$ that are less than $sqrt(n)$ is equal to the number of divisors of $n$ that are more than $sqrt(n)$. We can use this fact to express the total number of divisors of $n$ in terms of $D(n)$. There are two cases:
 
   + $n$ _is_ a perfect square:
 
@@ -21,7 +21,7 @@
 
   + $n$ _is not_ a perfect square:
 
-    The total number of divisors is equal to $2D(n)$, which is always an even number. Here we do not add $1$ because $sqrt(n) in.not ZZ$, so $n$ *definitely* cannot be divisible by $sqrt(n)$. The contrapositive of this result is that _if $n$ has an odd number of divisors, then it is a perfect square_
+    The total number of divisors is equal to $2D(n)$, which is always an even number. Here we do not add $1$ because $sqrt(n) in.not ZZ$, thus $n$ _definitely_ cannot be divisible by $sqrt(n)$. The contrapositive of this result is that _if $n$ has an odd number of divisors, then it is a perfect square_
 
   We proved the lemma both ways:
 
