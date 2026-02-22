@@ -19,3 +19,5 @@
 
   Because every term in the final sum is divisible by $a-b$, the whole sum is divisible by $a-b$, thus giving that $(a-b) divides (P(a)-P(b))$.
 ]
+
+#let notes

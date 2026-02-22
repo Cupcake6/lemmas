@@ -24,9 +24,15 @@
 #for (i, lemma) in lemmas.enumerate() {
   [= #lemma.name]
   [_#(lemma.statement)_]
+
   [== Proof]
   lemma.proof
   $space square$
+
+  if lemma.notes != none {
+    [== Notes]
+    lemma.notes
+  }
 
   if i < lemmas.len() - 1 { pagebreak() }
 }
