@@ -29,5 +29,5 @@
 ]
 
 #let notes = [
-  The lemma can be modified to get that _$forall n in NN$ the number of divisors that are less or equal to $x in RR, space x > 0$ is equal to the number of divisors of $n$ that are more or equal to $n/x$_
+  The lemma can be modified to get that _$forall n in NN$ the number of divisors of $n$ that are less or equal to $x in RR, space x > 0$ is equal to the number of divisors of $n$ that are more or equal to $n/x$_.
 ]

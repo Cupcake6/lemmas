@@ -18,4 +18,6 @@
   All elements of $A$ are in $B$, and all elements of $B$ are in $A$. Therefore $A = B$.
 ]
 
-#let notes
+#let notes = [
+  A commonly used consequence of this result is that _if $a eq.triple r space (mod b)$, then $gcd(a,b)=gcd(r,b)$_. If the sets are the equal, then the largest element of them both is the same.
+]
